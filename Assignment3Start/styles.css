@@ -9,10 +9,12 @@
 
 body{ 
 	font-family: 'Open Sans', sans-serif;
-}
+	margin: 0;
 
+}
 h1, h2 {
 	font-family: 'Fredoka One', cursive;
+	font-weight: 400;
 }
 h1 {
 	font-size: 40px;
@@ -23,9 +25,25 @@ h2 {
 a {
 	color: #EF233C;
 }
-
 a:hover {
 	 text-decoration: none;
+}
+.content-wrap {
+	max-width:950px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+}
+.column-narrow {
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height: 175px;
 }
 
 /* header and footer styles */
@@ -38,6 +56,20 @@ header, footer {
 header h1, header h2 {
 	color: #EDF2F4;
 }
+
+.profile-img {
+  border-radius: 50%;
+}
+
+/* Footer styles only */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
 /* work experience styles*/
 
 .work {
