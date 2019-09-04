@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+/*  #2B2D42 - dark blue 
+	#8D99AE - light blue 
+	#EDF2F4 - blue/white 
+	#EF233C	- red 
+*/ 
+/* global styles */
+
+body{ 
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Fredoka One', cursive;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 30px;
+}
+a {
+	color: #EF233C;
+}
+
+a:hover {
+	 text-decoration: none;
+}
+
+/* header and footer styles */
+
+header, footer {
+	background: #2B2D42;
+	color: #8D99AE;
+}
+
+header h1, header h2 {
+	color: #EDF2F4;
+}
+/* work experience styles*/
+
+.work {
+	background: #EDF2F4;
+}
+/* education styles */ 
+
+.education { 
+	background: #8D99AE;
+}
