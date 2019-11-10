@@ -6,13 +6,16 @@
 	#EF233C	- red 
 */ 
 /* global styles */
-html {
-  box-sizing: border-box;
-}
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
+.submission{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+}
 nav {
   text-align: center;
   background: white;
@@ -95,32 +98,12 @@ header, footer {
 header h1, header h2 {
 	color: #EDF2F4;
 }
-.profile-img {
-  border-radius: 50%;
-}
 footer {
   text-align: center;
-}
-.contact-info a {
-  padding: 10px;
-  display: inline-block;
-}
-.work {
-	background: #EDF2F4;
 }
 h3 ~ p {
 	margin: 0;
 }
-.job-description{
-	margin-bottom: 25px;
-}
-.job-description p:first-of-type{ 
-	margin-top: 0;
-}
-.education { 
-	background: #8D99AE;
-}
-
 p + h3 {
 	margin-top: 30px;
 }
